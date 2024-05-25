@@ -20,15 +20,19 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.73166, 0.119584, -1.63663 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.9667, 3.31136, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="wuhu_island_-_wii_sports_resort/bmw_m4_f82"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.882944, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.954454, 0 )
 shape = SubResource( 1 )
 
 [node name="Viewport" type="Viewport" parent="wuhu_island_-_wii_sports_resort/bmw_m4_f82"]
 size = Vector2( 2560, 1440 )
 
 [node name="Camera" type="Camera" parent="wuhu_island_-_wii_sports_resort/bmw_m4_f82/Viewport"]
-transform = Transform( 0.98886, 0.0325969, 0.145233, 0.025325, -0.998345, 0.0516411, 0.146676, -0.0473878, -0.988049, -20.1097, 5.57749, -6.70711 )
-fov = 105.0
+transform = Transform( 0.971312, 0.220021, 0.0902424, 0.237694, -0.886429, -0.397171, -0.00739257, 0.407227, -0.913297, -20.2351, 5.18263, -5.96281 )
+fov = 128.9
+
+[node name="RemoteTransform" type="RemoteTransform" parent="wuhu_island_-_wii_sports_resort/bmw_m4_f82"]
+transform = Transform( 0.971312, 0.220021, 0.0902424, 0.237694, -0.886429, -0.397171, -0.00739257, 0.407227, -0.913297, 0, 1.75169, -4.32618 )
+remote_path = NodePath("../Viewport/Camera")
 
 [node name="DirectionalLight" type="DirectionalLight" parent="wuhu_island_-_wii_sports_resort"]
 
