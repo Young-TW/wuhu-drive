@@ -1,0 +1,28 @@
+# Godot-specific ignores
+.export/
+.export_templates/
+*.import/
+*.mono/
+*.pck
+*.xscn
+*.xres
+
+# General ignores
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.last
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+Thumbs.db
